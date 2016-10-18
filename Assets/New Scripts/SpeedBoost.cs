@@ -3,7 +3,7 @@ using System.Collections;
 
 public class SpeedBoost : MonoBehaviour {
 
-	public Ball ball;
+	//public Ball ball;
 	float boostEnergy = 5, maxBoostEnergy = 5;
 	float rollSpeed, boostSpeed;
 	CharacterMotor cm;
