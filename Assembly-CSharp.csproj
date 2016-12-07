@@ -46,15 +46,23 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\New Scripts\CameraZoom.cs" />
+     <Compile Include="Assets\New Scripts\Checkpoint.cs" />
+     <Compile Include="Assets\New Scripts\CursorHideShow.cs" />
+     <Compile Include="Assets\New Scripts\FallDetect.cs" />
      <Compile Include="Assets\New Scripts\FreeCamera.cs" />
+     <Compile Include="Assets\New Scripts\GameVariables.cs" />
      <Compile Include="Assets\New Scripts\Jump.cs" />
      <Compile Include="Assets\New Scripts\MainMenu.cs" />
+     <Compile Include="Assets\New Scripts\MobileFreeCamera.cs" />
+     <Compile Include="Assets\New Scripts\Motor.cs" />
      <Compile Include="Assets\New Scripts\PlayerController.cs" />
      <Compile Include="Assets\New Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\New Scripts\Rotator.cs" />
      <Compile Include="Assets\New Scripts\SpeedBoost.cs" />
+     <Compile Include="Assets\New Scripts\Sprint.cs" />
      <Compile Include="Assets\New Scripts\ThirdPersonCamera.cs" />
      <Compile Include="Assets\New Scripts\Timer.cs" />
+     <Compile Include="Assets\New Scripts\VirtualJoystick.cs" />
      <Compile Include="Assets\New Scripts\WinBox.cs" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
