@@ -7,7 +7,7 @@ public class TurrentsFiringSpeed : MonoBehaviour {
     public Rigidbody[] projectiles = new Rigidbody[5];
     Rigidbody MyElement;
 
-    public float delayTime = 2.0f;      // Time between shots
+    public float delayTime = 1.5f;      // Time between shots
     public bool shootEnabled;           // Toggle shooting off and on
     bool shootRunning;
 
