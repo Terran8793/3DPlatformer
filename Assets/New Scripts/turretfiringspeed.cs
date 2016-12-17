@@ -1,8 +1,9 @@
-using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
-public class TurrentsFiringSpeed : MonoBehaviour
-{
+public class TurrentsFiringSpeed : MonoBehaviour {
+
     public Rigidbody[] projectiles = new Rigidbody[5];
     Rigidbody MyElement;
 
@@ -24,7 +25,6 @@ public class TurrentsFiringSpeed : MonoBehaviour
                 shootRunning = true;
                 MyElement = projectiles[Random.Range(0, projectiles.Length)];
                 Instantiate(MyElement, new Vector3(1, 3, 224), new Quaternion(0, -180, -180, 0));
-                MyElement.animation.Play("Shrink");
                 MyElement.AddForce(Vector3.back, ForceMode.Impulse);
 
                 yield return new WaitForSeconds(delayTime);
@@ -36,3 +36,4 @@ public class TurrentsFiringSpeed : MonoBehaviour
         }
     }
 }
+
